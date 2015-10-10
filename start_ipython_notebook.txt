@@ -1,0 +1,16 @@
+1.How to install ipython notebook?
+ my mechine is 12.04 ubuntu server 64bit.
+ $sudo apt-get install ipython-notebook
+
+2.How to change workplace dirctor?
+ $ cd dirname
+ $ipython notebook
+  That's really can change notebooks import dir, so easy.
+
+3.Introduce ipython notebook GUI
+  Left is a panel to use all the functions.
+  We can double-click the strips to shrink panel.
+  All the code depend on cells, we can run for cell, delete cells,or insert   cells.
+
+4.How to complete words or functions?
+  Haha,just Tab it.Also you can change the time before tooltip. Just change   it on left buttom. Always be 0 milliseconds.
