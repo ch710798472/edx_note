@@ -1,0 +1,9 @@
+1.where is edx tracking log?
+  $ find -name "log"
+  $ cd /opt/edx-cypress-0/apps/edx/edxapp/log/
+  $ vim tracking.log
+
+2.what is log structure?
+ log detail always like this (it can be export JSON):
+ {"username": "", "event_type": "/", "ip": "127.0.0.1", "agent": "Mozilla/5.0     (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454    .101 Safari/537.36", "host": "localhost", "referer": "", "accept_language":     "zh-CN,zh;q=0.8,en;q=0.6", "event": "{\"POST\": {}, \"GET\": {}}", "event_so    urce": "server", "context": {"user_id": "", "org_id": "", "course_id": "", "    path": "/"}, "time": "2015-10-01T05:49:15.481179+00:00", "page": null}
+ 
