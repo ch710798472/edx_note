@@ -14,3 +14,10 @@
 
 4.How to complete words or functions?
   Haha,just Tab it.Also you can change the time before tooltip. Just change   it on left buttom. Always be 0 milliseconds.
+
+5.How to load a .py file?
+  import IPython.nbformat.current as nbf
+  nb = nbf.read(open(‘test.py‘, ‘r‘), ‘py‘)
+  nbf.write(nb, open(‘test.ipynb‘, ‘w‘), ‘ipynb‘)
+  OR:
+  %load test.py
